@@ -21,3 +21,11 @@ primary_region = 'ams'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
+
+[[services]]
+  internal_port = 22
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 22
+    
